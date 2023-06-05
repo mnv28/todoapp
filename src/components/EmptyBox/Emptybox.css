@@ -1,0 +1,15 @@
+.EmptyBucket{
+   color: white;
+   margin-top: 1rem;
+}
+
+.allWrapperEmpty{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.nothingLottie{
+   width: 14rem;
+}

@@ -1,0 +1,147 @@
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainerWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.HeadingText h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.addItemTaker input{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 8px 6px;
+    width: 24rem;
+    margin-right: 1.5rem;
+}
+
+.addItemTaker input::placeholder{
+    color: white;
+}
+
+.addItemTaker button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 8px 14px;
+    margin-right: 1.5rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.addItemTaker button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.todoItem{
+    display: flex;
+}
+
+.textItem h4{
+    margin-left: 10px;
+}
+
+.TodoItemsContainer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin: auto; */
+}
+
+.todoItem{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 242, 0);
+    border: 1px solid white;
+    outline: none;
+    padding: 8px 6px;
+    width: 40rem;
+    /* margin-right: 1.5rem; */
+    height: 3rem;
+}
+
+
+.textBtnItems button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    padding: 8px 14px;
+    margin-right: 1rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.textBtnItems button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.todoBox{
+    /* border: 1px solid white; */
+    /* border-radius: 12px; */
+    width: 50rem;
+    height: 24rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f6ff00;
+  }
+
+  .lottie{
+    width: 12rem;
+    margin: auto;
+  }
+
+  .inputEditing{
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 28rem;
+  }
