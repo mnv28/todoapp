@@ -1,4 +1,135 @@
 body {
-    background: rgb(88,46,255);
-    background: linear-gradient(452deg, rgba(88,46,255,1) 7%, rgba(8,9,217,1) 58%, rgba(0,15,170,1) 87%);
+  /* background: rgb(88, 46, 255);
+    background: linear-gradient(180deg, rgba(88, 46, 255, 1) 7%, rgba(8, 9, 217, 1) 58%, rgba(0, 15, 170, 1) 87%); */
+  background: rgba(0, 133, 166, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 133, 166, 1) 0%,
+    rgba(0, 126, 237, 1) 41%,
+    rgba(0, 82, 105, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 133, 166, 1)),
+    color-stop(41%, rgba(0, 126, 237, 1)),
+    color-stop(100%, rgba(0, 82, 105, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 133, 166, 1) 0%,
+    rgba(0, 126, 237, 1) 41%,
+    rgba(0, 82, 105, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 133, 166, 1) 0%,
+    rgba(0, 126, 237, 1) 41%,
+    rgba(0, 82, 105, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 133, 166, 1) 0%,
+    rgba(0, 126, 237, 1) 41%,
+    rgba(0, 82, 105, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 133, 166, 1) 0%,
+    rgba(0, 126, 237, 1) 41%,
+    rgba(0, 82, 105, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0085a6', endColorstr='#005269', GradientType=1 );
+}
+
+/* Default styles for all devices */
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Mobile-specific styles go here */
+  .HeadingText h1 {
+    font-size: 0.6rem;
+  }
+
+  .lottie {
+    /* margin-top: -3rem; */
+    width: 8rem;
+  }
+
+  .addItemTaker input {
+    padding: 5px 8px;
+    width: 10rem;
+    margin-right: 0.8rem;
+    font-size: 0.6rem;
+  }
+
+  .addItemTaker button{
+    padding: 5px 8px;
+    font-size: 0.6rem;
+  }
+
+  .todoItem {
+    height: 1.7rem;
+    width: 12rem;
+  }
+
+  .textBtnItems button {
+    padding: 1px 5px;
+    margin-right: 0.5rem;
+  }
+
+  .textBtnItems button i{
+    font-size: 0.6rem;
+  }
+
+  .todoBox {
+    width: 15rem;
+  }
+
+  .textItem h4{
+    font-size: 0.5rem;
+  }
+
+  .nothingLottie {
+    width: 6rem;
+  }
+
+  .EmptyBucket {
+    font-size: 0.5rem;
+  }
+
+  .inputEditing{
+    width: 5rem;
+    font-size: 0.5rem;
+  }
+}
+
+/* Styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet-specific styles go here */
+  .HeadingText h1 {
+    font-size: 1.5rem;
+  }
+
+  .todoItem {
+    height: 2rem;
+    width: 27rem;
+  }
+
+  .textBtnItems button {
+    padding: 2px 9px;
+    margin-right: 0.7rem;
+  }
+
+  .todoBox {
+    width: 31rem;
+  }
+
+  .nothingLottie {
+    width: 9rem;
+  }
+
+  .EmptyBucket {
+    font-size: 0.8rem;
+  }
 }
